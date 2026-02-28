@@ -23,6 +23,8 @@ def get_detail(p_id):
         return res.json()
     except: return None
 
+# --- (前略：設定部分はそのまま) ---
+
 def main():
     last_data = {}
     if os.path.exists(DB_FILE):
@@ -34,6 +36,8 @@ def main():
         products = res.json().get('data', [])
         current_data = {}
 
+        print(f"取得した商品数: {len(products)}") # ログで確認用
+
         for p in products:
             p_id = str(p.get('id'))
             title = p.get('title', '不明')
@@ -43,22 +47,19 @@ def main():
             stock = detail.get('limit_quantity', 0) - detail.get('sold_quantity', 0)
             current_data[p_id] = {"title": title, "stock": stock}
 
-            # 通知判定
-            msg = ""
-            if p_id not in last_data:
-                msg = f"\n✨【新着】一宮ゆい\n{title}\n在庫: {stock}個\nhttps://marche-yell.com/{CREATOR_ID}/products/{p_id}"
-            elif stock > 0 and last_data.get(p_id, {}).get('stock', 0) == 0:
-                msg = f"\n🔄【復活】一宮ゆい\n{title}\n残り {stock}個！急いで！"
+            # 【テスト用】前回のデータに関わらず、見つけた商品をすべて通知する
+            msg = f"\n✅【接続テスト】一宮ゆい\n{title}\n在庫: {stock}個\nhttps://marche-yell.com/{CREATOR_ID}/products/{p_id}"
             
-            if msg:
-                send_line(msg)
-                print(f"通知済み: {title}")
+            send_line(msg)
+            print(f"テスト通知送信中: {title}")
 
         with open(DB_FILE, "w", encoding="utf-8") as f:
             json.dump(current_data, f, ensure_ascii=False, indent=2)
 
     except Exception as e:
         print(f"Error: {e}")
+
+# --- (後略) ---
 
 if __name__ == "__main__":
     main()
