@@ -2,11 +2,13 @@ import requests
 import json
 import os
 
-# --- 環境変数（GitHub Secretsから取得） ---
+# --- 環境変数 ---
 LINE_TOKEN = os.getenv('LINE_ACCESS_TOKEN')
 USER_ID = os.getenv('LINE_USER_ID')
 CREATOR_ID = "2c_ichimiyayui"
-LIST_API = f"https://api.marche-yell.com/api/public/products?creator_marche_id={CREATOR_ID}&limit=20&page=1"
+
+# URLを最もシンプルな形に変更（余計なパラメータを削る）
+LIST_API = f"https://api.marche-yell.com/api/public/products?creator_marche_id={CREATOR_ID}"
 DB_FILE = "last_inventory.json"
 
 def send_line(message):
@@ -29,35 +31,37 @@ def send_line(message):
         print(f"LINE送信エラー: {e}")
 
 def get_detail(p_id, headers):
+    # 個別詳細API
     url = f"https://api.marche-yell.com/api/public/products/{p_id}?creator_marche_id={CREATOR_ID}"
     try:
         res = requests.get(url, headers=headers, timeout=10)
         return res.json()
-    except:
+    except Exception as e:
+        print(f"詳細取得エラー(ID:{p_id}): {e}")
         return None
 
 def main():
-    last_data = {}
-    if os.path.exists(DB_FILE):
-        with open(DB_FILE, "r", encoding="utf-8") as f:
-            last_data = json.load(f)
-
-    # ブラウザからのアクセスを装うヘッダー
+    # ブラウザを完全に模倣するヘッダー
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Accept": "application/json",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
         "Origin": "https://marche-yell.com",
         "Referer": f"https://marche-yell.com/{CREATOR_ID}/"
     }
 
     try:
-        # 商品一覧の取得
-        res = requests.get(LIST_API, headers=headers, timeout=10)
+        print(f"アクセス開始: {LIST_API}")
+        res = requests.get(LIST_API, headers=headers, timeout=15)
+        
+        # もしエラー（403等）ならここで止まって原因を表示する
         res.raise_for_status()
         
-        data = res.json()
-        products = data.get('data', [])
-
+        raw_res = res.json()
+        # APIのレスポンス構造を念のため全表示してログで確認
+        print(f"受信データ(全容): {json.dumps(raw_res, ensure_ascii=False)[:200]}...")
+        
+        products = raw_res.get('data', [])
         print(f"取得した商品数: {len(products)}")
 
         current_data = {}
@@ -66,30 +70,32 @@ def main():
             p_id = str(p.get('id'))
             title = p.get('title', '不明')
             
-            # 個別詳細（正確な在庫）を取得
+            # 詳細（在庫数）の取得
             detail = get_detail(p_id, headers)
             if not detail:
                 continue
 
-            # 在庫計算: 販売上限 - 販売済数
+            # 在庫計算
             limit = detail.get('limit_quantity', 0)
             sold = detail.get('sold_quantity', 0)
             stock = limit - sold
             
             current_data[p_id] = {"title": title, "stock": stock}
 
-            # 【テスト用】実行するたびに必ず通知が飛ぶように設定
+            # テスト送信
             msg = f"\n✅【接続テスト】一宮ゆい\n{title}\n在庫: 残り {stock} / 全 {limit}個\nhttps://marche-yell.com/{CREATOR_ID}/products/{p_id}"
-            
-            print(f"テスト通知送信中: {title} (ID:{p_id})")
+            print(f"通知準備OK: {title}")
             send_line(msg)
 
-        # 状態を保存
+        # 最後にデータを保存
         with open(DB_FILE, "w", encoding="utf-8") as f:
             json.dump(current_data, f, ensure_ascii=False, indent=2)
 
     except Exception as e:
-        print(f"解析エラー: {e}")
+        print(f"メイン処理でエラー発生: {e}")
+        # 失敗した時の生のレスポンス内容をログに出す
+        if 'res' in locals():
+            print(f"レスポンス内容: {res.text}")
 
 if __name__ == "__main__":
     main()
