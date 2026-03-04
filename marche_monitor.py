@@ -5,13 +5,12 @@ from datetime import datetime, timedelta
 
 # --- 設定 ---
 LINE_TOKEN = os.getenv('LINE_ACCESS_TOKEN')
-DB_FILE = "2c_last_inventory.json"  # ファイル名も虹コン用に変更
+DB_FILE = "2c_last_inventory.json"
 
-# IDと表示名のマッピング
 TARGET_CREATORS = [
     {"id": "2c_ichimiyayui", "name": "一宮ゆい"},
     {"id": "2c_yagiharuka", "name": "八木遥叶"},
-    {"id": "2c_matobakarin", "name": "的な華鈴"},
+    {"id": "2c_matobakarin", "name": "的場華鈴"},
     {"id": "2c_hirutaairi", "name": "蛭田愛梨"},
     {"id": "2c_kawabatayu", "name": "川端優"},
     {"id": "2c_itomai", "name": "伊藤舞依"},
@@ -27,7 +26,6 @@ TARGET_CREATORS = [
 def convert_to_jst_full(utc_str):
     if not utc_str: return "0000-00-00 00:00"
     try:
-        # ISO形式のパース
         dt_utc = datetime.fromisoformat(utc_str.replace('Z', '+00:00'))
         dt_jst = dt_utc + timedelta(hours=9)
         return dt_jst.strftime("%Y-%m-%d %H:%M")
@@ -35,9 +33,7 @@ def convert_to_jst_full(utc_str):
         return "0000-00-00 00:00"
 
 def send_line(message):
-    if not LINE_TOKEN:
-        print(f"LINE Token未設定: {message}")
-        return
+    if not LINE_TOKEN: return
     url = "https://api.line.me/v2/bot/message/broadcast"
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {LINE_TOKEN}"}
     payload = {"messages": [{"type": "text", "text": message}]}
@@ -62,9 +58,8 @@ def main():
         c_name = creator["name"]
         c_id = creator["id"]
         
-        print(f"--- 取得中: {c_name} ({c_id}) ---")
-        list_api = f"https://api.marche-yell.com/api/public/products?creator_marche_id={c_id}&limit=100"
-        headers = {"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+        list_api = f"https://api.marche-yell.com/api/public/products?creator_marche_id={c_id}&limit=50"
+        headers = {"User-Agent": "Mozilla/5.0"}
 
         try:
             res = requests.get(list_api, headers=headers, timeout=15)
@@ -80,10 +75,8 @@ def main():
                 db_key = f"{c_id}_{p_id}"
                 
                 msg = ""
-                # 新着判定
                 if db_key not in last_data:
                     msg = f"🌈【虹コン/新着】{c_name}\n📝 {title}\n📅 開始: {start_jst}\n📦 在庫: {stock}/{limit}\n🔗 https://marche-yell.com/{c_id}/products/{p_id}"
-                # 復活判定
                 elif stock > 0 and last_data[db_key].get('stock', 0) == 0:
                     msg = f"🔄【虹コン/復活】{c_name}\n📝 {title}\n📦 残り {stock}個！\n🔗 https://marche-yell.com/{c_id}/products/{p_id}"
                 
@@ -98,13 +91,12 @@ def main():
                     "start": start_jst,
                     "creator_id": c_id
                 }
-
         except Exception as e:
-            print(f"エラー ({c_name}): {e}")
+            print(f"Error ({c_name}): {e}")
 
+    # JSON保存
     with open(DB_FILE, "w", encoding="utf-8") as f:
         json.dump(current_all_data, f, ensure_ascii=False, indent=2)
-    print(f"保存完了: {len(current_all_data)} 件のデータを保持しています。")
 
 if __name__ == "__main__":
     main()
