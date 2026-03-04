@@ -1,15 +1,15 @@
-name: Nijicon Marche Monitor
+name: Nijicon Monitor
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # 10分ごとに実行
-  workflow_dispatch:        # 手動実行用ボタン
+    - cron: '*/10 * * * *'  # 10分おきにチェック
+  workflow_dispatch:        # 手動実行ボタン
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # GitHubへの書き込み権限を許可
+      contents: write
 
     steps:
       - name: Checkout repository
