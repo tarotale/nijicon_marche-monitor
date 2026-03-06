@@ -15550,5 +15550,21 @@
     "limit": 20,
     "start": "2026-03-05 22:30",
     "creator_id": "2c_hirutaairi"
+  },
+  "2c_hirutaairi_158461": {
+    "name": "蛭田愛梨",
+    "title": "【蛭田愛梨】22歳おめでとまるしぇ追加分（グッズビジュ）",
+    "stock": 15,
+    "limit": 15,
+    "start": "2026-03-06 21:00",
+    "creator_id": "2c_hirutaairi"
+  },
+  "2c_hirutaairi_158462": {
+    "name": "蛭田愛梨",
+    "title": "【蛭田愛梨】22歳おめでとまるしぇ追加分（当日ビジュ）",
+    "stock": 15,
+    "limit": 15,
+    "start": "2026-03-06 21:30",
+    "creator_id": "2c_hirutaairi"
   }
 }
