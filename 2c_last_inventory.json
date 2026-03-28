@@ -15690,7 +15690,7 @@
   "2c_matobakarin_160504": {
     "name": "的場華鈴",
     "title": "【的場華鈴】これこそが愛のパワーっ！マルシェ",
-    "stock": 3,
+    "stock": 0,
     "limit": 30,
     "start": "2026-03-27 22:00",
     "creator_id": "2c_matobakarin"
@@ -15698,7 +15698,7 @@
   "2c_matobakarin_160505": {
     "name": "的場華鈴",
     "title": "【的場華鈴】3月の雑談マルシェ",
-    "stock": 0,
+    "stock": 1,
     "limit": 15,
     "start": "2026-03-28 22:00",
     "creator_id": "2c_matobakarin"
