@@ -15702,5 +15702,29 @@
     "limit": 15,
     "start": "2026-03-28 22:00",
     "creator_id": "2c_matobakarin"
+  },
+  "2c_obayashiyuik_160812": {
+    "name": "尾林結花",
+    "title": "【尾林結花】3月マルシェ",
+    "stock": 20,
+    "limit": 20,
+    "start": "2026-03-31 22:30",
+    "creator_id": "2c_obayashiyuik"
+  },
+  "2c_obayashiyuik_160813": {
+    "name": "尾林結花",
+    "title": "【尾林結花】3月ボイスマルシェ",
+    "stock": 20,
+    "limit": 20,
+    "start": "2026-03-31 23:00",
+    "creator_id": "2c_obayashiyuik"
+  },
+  "2c_aoyamauta_160811": {
+    "name": "青山詩",
+    "title": "【青山詩】虹コン加入1周年🌈1️⃣",
+    "stock": 30,
+    "limit": 30,
+    "start": "2026-03-30 22:00",
+    "creator_id": "2c_aoyamauta"
   }
 }
