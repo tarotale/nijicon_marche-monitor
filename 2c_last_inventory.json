@@ -15722,7 +15722,7 @@
   "2c_aoyamauta_160811": {
     "name": "青山詩",
     "title": "【青山詩】虹コン加入1周年🌈1️⃣",
-    "stock": 13,
+    "stock": 11,
     "limit": 30,
     "start": "2026-03-30 22:00",
     "creator_id": "2c_aoyamauta"
@@ -15742,5 +15742,37 @@
     "limit": 15,
     "start": "2026-03-31 23:00",
     "creator_id": "2c_kuriharamay"
+  },
+  "2c_ichimiyayui_161048": {
+    "name": "一宮ゆい",
+    "title": "【一宮ゆい】 いちごゆいちマルシェ🍓",
+    "stock": 20,
+    "limit": 20,
+    "start": "2026-03-31 21:00",
+    "creator_id": "2c_ichimiyayui"
+  },
+  "2c_ichimiyayui_161050": {
+    "name": "一宮ゆい",
+    "title": "【一宮ゆい】 エイプリルフールマルシェ",
+    "stock": 15,
+    "limit": 15,
+    "start": "2026-03-31 21:00",
+    "creator_id": "2c_ichimiyayui"
+  },
+  "2c_ichimiyayui_161053": {
+    "name": "一宮ゆい",
+    "title": "【一宮ゆい】 虹コン加入2周年マルシェ🌈",
+    "stock": 20,
+    "limit": 20,
+    "start": "2026-03-31 21:00",
+    "creator_id": "2c_ichimiyayui"
+  },
+  "2c_ichimiyayui_161055": {
+    "name": "一宮ゆい",
+    "title": "【一宮ゆい】  おしゃべりボイスマルシェ",
+    "stock": 15,
+    "limit": 15,
+    "start": "2026-03-31 21:00",
+    "creator_id": "2c_ichimiyayui"
   }
 }
