@@ -15722,9 +15722,25 @@
   "2c_aoyamauta_160811": {
     "name": "青山詩",
     "title": "【青山詩】虹コン加入1周年🌈1️⃣",
-    "stock": 17,
+    "stock": 16,
     "limit": 30,
     "start": "2026-03-30 22:00",
     "creator_id": "2c_aoyamauta"
+  },
+  "2c_kuriharamay_160925": {
+    "name": "栗原舞優",
+    "title": "【栗原舞優】火曜日の栗原舞優🐈‍⬛マユシェ",
+    "stock": 20,
+    "limit": 20,
+    "start": "2026-03-31 22:30",
+    "creator_id": "2c_kuriharamay"
+  },
+  "2c_kuriharamay_160926": {
+    "name": "栗原舞優",
+    "title": "【栗原舞優】 いちご狩りまゆちゃん🍓",
+    "stock": 15,
+    "limit": 15,
+    "start": "2026-03-31 23:00",
+    "creator_id": "2c_kuriharamay"
   }
 }
