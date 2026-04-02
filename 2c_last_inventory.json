@@ -15714,7 +15714,7 @@
   "2c_obayashiyuik_160813": {
     "name": "尾林結花",
     "title": "【尾林結花】3月ボイスマルシェ",
-    "stock": 4,
+    "stock": 2,
     "limit": 20,
     "start": "2026-03-31 23:00",
     "creator_id": "2c_obayashiyuik"
@@ -15754,7 +15754,7 @@
   "2c_ichimiyayui_161050": {
     "name": "一宮ゆい",
     "title": "【一宮ゆい】 エイプリルフールマルシェ",
-    "stock": 4,
+    "stock": 0,
     "limit": 15,
     "start": "2026-03-31 21:00",
     "creator_id": "2c_ichimiyayui"
@@ -15774,5 +15774,21 @@
     "limit": 15,
     "start": "2026-03-31 21:00",
     "creator_id": "2c_ichimiyayui"
+  },
+  "2c_kumamotomari_161325": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】虹コンワンマンマルシェ🩵💜",
+    "stock": 0,
+    "limit": 15,
+    "start": "2026-04-02 21:30",
+    "creator_id": "2c_kumamotomari"
+  },
+  "2c_kumamotomari_161326": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】ピアノありがとうマルシェ🎹",
+    "stock": 0,
+    "limit": 30,
+    "start": "2026-04-02 22:00",
+    "creator_id": "2c_kumamotomari"
   }
 }
