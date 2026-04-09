@@ -15814,5 +15814,21 @@
     "limit": 30,
     "start": "2026-04-07 22:00",
     "creator_id": "2c_yagiharuka"
+  },
+  "2c_kumamotomari_161825": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】朗読劇マルシェ📚🏫",
+    "stock": 15,
+    "limit": 15,
+    "start": "2026-04-09 21:00",
+    "creator_id": "2c_kumamotomari"
+  },
+  "2c_kumamotomari_161826": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】3/21ソロイベマルシェ😈🩷",
+    "stock": 10,
+    "limit": 10,
+    "start": "2026-04-09 21:20",
+    "creator_id": "2c_kumamotomari"
   }
 }
