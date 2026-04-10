@@ -2,8 +2,10 @@ name: Nijicon Monitor
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # 10分おきにチェック
-  workflow_dispatch:        # 手動実行ボタン
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+  repository_dispatch:        # ← これを追加
+    types: [line_trigger]    # ← これを追加（GASで指定している名前）
 
 jobs:
   build:
