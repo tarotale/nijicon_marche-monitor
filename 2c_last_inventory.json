@@ -15866,9 +15866,33 @@
   "2c_aoyamauta_162648": {
     "name": "青山詩",
     "title": "【青山詩】春ツアー東京ありがとうマルシェ🗼🌸",
-    "stock": 10,
+    "stock": 9,
     "limit": 20,
     "start": "2026-04-19 22:00",
     "creator_id": "2c_aoyamauta"
+  },
+  "2c_kuriharamay_162936": {
+    "name": "栗原舞優",
+    "title": "【栗原舞優】ドタバタ大作戦in東京❣️マユシェ",
+    "stock": 20,
+    "limit": 20,
+    "start": "2026-04-22 22:00",
+    "creator_id": "2c_kuriharamay"
+  },
+  "2c_kuriharamay_162937": {
+    "name": "栗原舞優",
+    "title": "【栗原舞優】🍓火曜日の栗原舞優🐰マユシェ",
+    "stock": 20,
+    "limit": 20,
+    "start": "2026-04-22 22:30",
+    "creator_id": "2c_kuriharamay"
+  },
+  "2c_kuriharamay_162938": {
+    "name": "栗原舞優",
+    "title": "【栗原舞優】♡4月ボイスマユシェ🎤(歌ってみたも🙆🏻‍♀️)",
+    "stock": 10,
+    "limit": 10,
+    "start": "2026-04-22 23:00",
+    "creator_id": "2c_kuriharamay"
   }
 }
