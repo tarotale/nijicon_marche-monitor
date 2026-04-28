@@ -15902,5 +15902,29 @@
     "limit": 20,
     "start": "2026-04-21 22:00",
     "creator_id": "2c_kumamotomari"
+  },
+  "2c_kumamotomari_163694": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】春ツアー大阪マルシェ🐙",
+    "stock": 15,
+    "limit": 15,
+    "start": "2026-04-29 22:00",
+    "creator_id": "2c_kumamotomari"
+  },
+  "2c_kumamotomari_163695": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】春ツアー福岡マルシェ🍜",
+    "stock": 20,
+    "limit": 20,
+    "start": "2026-04-30 22:00",
+    "creator_id": "2c_kumamotomari"
+  },
+  "2c_kumamotomari_163696": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】凱旋福岡フリーライブマルシェ💙",
+    "stock": 15,
+    "limit": 15,
+    "start": "2026-05-01 22:00",
+    "creator_id": "2c_kumamotomari"
   }
 }
