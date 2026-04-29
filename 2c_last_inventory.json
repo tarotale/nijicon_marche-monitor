@@ -15926,5 +15926,21 @@
     "limit": 15,
     "start": "2026-05-01 22:00",
     "creator_id": "2c_kumamotomari"
+  },
+  "2c_obayashiyuik_163703": {
+    "name": "尾林結花",
+    "title": "【尾林結花】ツアー大阪福岡マルシェ",
+    "stock": 20,
+    "limit": 20,
+    "start": "2026-04-30 22:00",
+    "creator_id": "2c_obayashiyuik"
+  },
+  "2c_obayashiyuik_163704": {
+    "name": "尾林結花",
+    "title": "【尾林結花】なんでもおしゃべりマルシェ",
+    "stock": 10,
+    "limit": 10,
+    "start": "2026-04-30 22:30",
+    "creator_id": "2c_obayashiyuik"
   }
 }
