@@ -15922,15 +15922,15 @@
   "2c_kumamotomari_163696": {
     "name": "隈本茉莉奈",
     "title": "【隈本茉莉奈】凱旋福岡フリーライブマルシェ💙",
-    "stock": 15,
-    "limit": 15,
+    "stock": 10,
+    "limit": 10,
     "start": "2026-05-01 22:00",
     "creator_id": "2c_kumamotomari"
   },
   "2c_obayashiyuik_163703": {
     "name": "尾林結花",
     "title": "【尾林結花】ツアー大阪福岡マルシェ",
-    "stock": 12,
+    "stock": 11,
     "limit": 20,
     "start": "2026-04-30 22:00",
     "creator_id": "2c_obayashiyuik"
