@@ -15946,7 +15946,7 @@
   "2c_ishihamamei_164166": {
     "name": "石浜芽衣",
     "title": "【石浜芽衣】虹コンドタバタ大作戦🌟大阪マルシェ🐙",
-    "stock": 15,
+    "stock": 0,
     "limit": 15,
     "start": "2026-05-02 22:00",
     "creator_id": "2c_ishihamamei"
@@ -15954,7 +15954,7 @@
   "2c_ishihamamei_164167": {
     "name": "石浜芽衣",
     "title": "【石浜芽衣】虹コンドタバタ大作戦🌟福岡マルシェ",
-    "stock": 10,
+    "stock": 0,
     "limit": 10,
     "start": "2026-05-02 22:30",
     "creator_id": "2c_ishihamamei"
@@ -15962,7 +15962,7 @@
   "2c_aoyamauta_164168": {
     "name": "青山詩",
     "title": "【青山詩】春ツアー大阪ありがとうマルシェ🐙🌸",
-    "stock": 10,
+    "stock": 7,
     "limit": 10,
     "start": "2026-05-02 22:00",
     "creator_id": "2c_aoyamauta"
@@ -15970,7 +15970,7 @@
   "2c_aoyamauta_164171": {
     "name": "青山詩",
     "title": "【青山詩】春ツアー福岡ありがとうマルシェ🍜🌸",
-    "stock": 15,
+    "stock": 11,
     "limit": 15,
     "start": "2026-05-02 22:10",
     "creator_id": "2c_aoyamauta"
