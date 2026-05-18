@@ -16026,7 +16026,7 @@
   "2c_aoyamauta_165605": {
     "name": "青山詩",
     "title": "【青山詩】春ツアー広島ありがとうマルシェ🦪🌸",
-    "stock": 4,
+    "stock": 0,
     "limit": 5,
     "start": "2026-05-18 21:00",
     "creator_id": "2c_aoyamauta"
@@ -16034,9 +16034,17 @@
   "2c_aoyamauta_165606": {
     "name": "青山詩",
     "title": "【青山詩】春ツアー岡山ありがとうマルシェ🍑🌸",
-    "stock": 5,
+    "stock": 0,
     "limit": 5,
     "start": "2026-05-18 21:10",
     "creator_id": "2c_aoyamauta"
+  },
+  "2c_kumamotomari_165678": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】虹コン加入10周年マルシェ🌈💙",
+    "stock": 11,
+    "limit": 40,
+    "start": "2026-05-18 23:00",
+    "creator_id": "2c_kumamotomari"
   }
 }
