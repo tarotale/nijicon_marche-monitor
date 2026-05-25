@@ -22,6 +22,7 @@ TARGET_CREATORS = [
     {"id": "2c_obayashiyuik", "name": "尾林結花"},
     {"id": "2c_kumamotomari", "name": "隈本茉莉奈"},
     {"id": "2c_aoyamauta", "name": "青山詩"},
+    {"id": "2c_tsudukishiy", "name": "都月しより"},
 ]
 
 def convert_to_jst_full(utc_str):
