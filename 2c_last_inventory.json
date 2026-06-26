@@ -16470,5 +16470,21 @@
     "limit": 50,
     "start": "2026-06-26 21:30",
     "creator_id": "2c_kuriharamay"
+  },
+  "2c_ishihamamei_169545": {
+    "name": "石浜芽衣",
+    "title": "【石浜芽衣】虹コンドタバタ大作戦🌟長野マルシェ🍎",
+    "stock": 15,
+    "limit": 15,
+    "start": "2026-06-26 22:00",
+    "creator_id": "2c_ishihamamei"
+  },
+  "2c_ishihamamei_169546": {
+    "name": "石浜芽衣",
+    "title": "【石浜芽衣】虹コンドタバタ大作戦🌟金沢マルシェ🐟",
+    "stock": 20,
+    "limit": 20,
+    "start": "2026-06-26 22:30",
+    "creator_id": "2c_ishihamamei"
   }
 }
