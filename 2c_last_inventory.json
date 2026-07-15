@@ -16602,7 +16602,7 @@
   "2c_obayashiyuik_171398": {
     "name": "尾林結花",
     "title": "【尾林結花】虹コン12周年マルシェ",
-    "stock": 30,
+    "stock": 0,
     "limit": 30,
     "start": "2026-07-15 22:00",
     "creator_id": "2c_obayashiyuik"
@@ -16610,7 +16610,7 @@
   "2c_obayashiyuik_171399": {
     "name": "尾林結花",
     "title": "【尾林結花】ボイスマルシェ",
-    "stock": 20,
+    "stock": 0,
     "limit": 20,
     "start": "2026-07-15 22:30",
     "creator_id": "2c_obayashiyuik"
@@ -16618,7 +16618,7 @@
   "2c_aoyamauta_171397": {
     "name": "青山詩",
     "title": "【青山詩】12周年LIVEありがとうマルシェ",
-    "stock": 16,
+    "stock": 9,
     "limit": 30,
     "start": "2026-07-15 21:00",
     "creator_id": "2c_aoyamauta"
@@ -16626,7 +16626,7 @@
   "2c_kumamotomari_171522": {
     "name": "隈本茉莉奈",
     "title": "【隈本茉莉奈】虹コン12周年マルシェ🌈本編ライブ衣装",
-    "stock": 15,
+    "stock": 8,
     "limit": 30,
     "start": "2026-07-15 21:00",
     "creator_id": "2c_kumamotomari"
@@ -16637,6 +16637,14 @@
     "stock": 0,
     "limit": 10,
     "start": "2026-07-15 21:00",
+    "creator_id": "2c_kumamotomari"
+  },
+  "2c_kumamotomari_171541": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】虹コン12周年マルシェ🌈アンコール衣装",
+    "stock": 10,
+    "limit": 10,
+    "start": "2026-07-15 23:03",
     "creator_id": "2c_kumamotomari"
   }
 }
