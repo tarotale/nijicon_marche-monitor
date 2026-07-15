@@ -16578,7 +16578,7 @@
   "2c_matobakarin_171269": {
     "name": "的場華鈴",
     "title": "【的場華鈴】虹コン12周年！的場もアイドル12周年！マルシェ",
-    "stock": 4,
+    "stock": 0,
     "limit": 50,
     "start": "2026-07-14 22:30",
     "creator_id": "2c_matobakarin"
@@ -16622,5 +16622,21 @@
     "limit": 30,
     "start": "2026-07-15 21:00",
     "creator_id": "2c_aoyamauta"
+  },
+  "2c_kumamotomari_171522": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】虹コン12周年マルシェ🌈本編ライブ衣装",
+    "stock": 30,
+    "limit": 30,
+    "start": "2026-07-15 21:00",
+    "creator_id": "2c_kumamotomari"
+  },
+  "2c_kumamotomari_171523": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】虹コン12周年マルシェ🌈アンコール衣装",
+    "stock": 10,
+    "limit": 10,
+    "start": "2026-07-15 21:00",
+    "creator_id": "2c_kumamotomari"
   }
 }
