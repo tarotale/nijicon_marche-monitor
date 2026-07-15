@@ -16594,7 +16594,7 @@
   "2c_ishihamamei_171396": {
     "name": "石浜芽衣",
     "title": "【石浜芽衣】12周年LIVE「ニューレジェンドインサマー！」マルシェ🌈",
-    "stock": 30,
+    "stock": 0,
     "limit": 30,
     "start": "2026-07-15 21:00",
     "creator_id": "2c_ishihamamei"
@@ -16618,7 +16618,7 @@
   "2c_aoyamauta_171397": {
     "name": "青山詩",
     "title": "【青山詩】12周年LIVEありがとうマルシェ",
-    "stock": 30,
+    "stock": 16,
     "limit": 30,
     "start": "2026-07-15 21:00",
     "creator_id": "2c_aoyamauta"
@@ -16626,7 +16626,7 @@
   "2c_kumamotomari_171522": {
     "name": "隈本茉莉奈",
     "title": "【隈本茉莉奈】虹コン12周年マルシェ🌈本編ライブ衣装",
-    "stock": 30,
+    "stock": 15,
     "limit": 30,
     "start": "2026-07-15 21:00",
     "creator_id": "2c_kumamotomari"
@@ -16634,7 +16634,7 @@
   "2c_kumamotomari_171523": {
     "name": "隈本茉莉奈",
     "title": "【隈本茉莉奈】虹コン12周年マルシェ🌈アンコール衣装",
-    "stock": 10,
+    "stock": 0,
     "limit": 10,
     "start": "2026-07-15 21:00",
     "creator_id": "2c_kumamotomari"
