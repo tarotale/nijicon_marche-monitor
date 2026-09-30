@@ -17034,7 +17034,7 @@
   "2c_kuriharamay_179258": {
     "name": "栗原舞優",
     "title": "【栗原舞優】9月のボイスマユシェ🎤(歌ってみたも🙆‍♀️",
-    "stock": 2,
+    "stock": 0,
     "limit": 20,
     "start": "2026-09-26 22:00",
     "creator_id": "2c_kuriharamay"
@@ -17042,7 +17042,7 @@
   "2c_matobakarin_179709": {
     "name": "的場華鈴",
     "title": "【的場華鈴】9月の雑談マルシェ",
-    "stock": 20,
+    "stock": 5,
     "limit": 20,
     "start": "2026-09-30 22:00",
     "creator_id": "2c_matobakarin"
@@ -17050,7 +17050,7 @@
   "2c_tsudukishiy_179706": {
     "name": "都月しより",
     "title": "【都月しより】♡つづまるしぇ♡9月の雑談🍂",
-    "stock": 10,
+    "stock": 1,
     "limit": 10,
     "start": "2026-09-30 20:00",
     "creator_id": "2c_tsudukishiy"
@@ -17058,9 +17058,25 @@
   "2c_tsudukishiy_179707": {
     "name": "都月しより",
     "title": "【都月しより】♡つづまるしぇ♡ なんでも編🎶",
-    "stock": 10,
+    "stock": 0,
     "limit": 10,
     "start": "2026-09-30 20:05",
     "creator_id": "2c_tsudukishiy"
+  },
+  "2c_kumamotomari_179823": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】夏フェス写真マルシェ🌈🎤",
+    "stock": 14,
+    "limit": 20,
+    "start": "2026-09-30 21:00",
+    "creator_id": "2c_kumamotomari"
+  },
+  "2c_kumamotomari_179825": {
+    "name": "隈本茉莉奈",
+    "title": "【隈本茉莉奈】舞台リトアモ マルシェ🧡🔫",
+    "stock": 15,
+    "limit": 20,
+    "start": "2026-09-30 21:30",
+    "creator_id": "2c_kumamotomari"
   }
 }
