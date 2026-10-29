@@ -17162,7 +17162,7 @@
   "2c_aoyamauta_182963": {
     "name": "青山詩",
     "title": "【青山詩】ハロウィンマルシェ♡",
-    "stock": 1,
+    "stock": 0,
     "limit": 15,
     "start": "2026-10-28 20:00",
     "creator_id": "2c_aoyamauta"
@@ -17178,7 +17178,7 @@
   "2c_kuriharamay_183185": {
     "name": "栗原舞優",
     "title": "【栗原舞優】🤍静岡ソロイベ1部まゆちゃんマユシェ👼🏻",
-    "stock": 7,
+    "stock": 5,
     "limit": 15,
     "start": "2026-10-29 21:30",
     "creator_id": "2c_kuriharamay"
@@ -17186,7 +17186,7 @@
   "2c_kuriharamay_183180": {
     "name": "栗原舞優",
     "title": "【栗原舞優】🖤静岡ソロイベ2部まゆちゃんマユシェ😈",
-    "stock": 7,
+    "stock": 5,
     "limit": 15,
     "start": "2026-10-29 21:45",
     "creator_id": "2c_kuriharamay"
@@ -17194,7 +17194,7 @@
   "2c_kuriharamay_183181": {
     "name": "栗原舞優",
     "title": "【栗原舞優】🤍ハロウィンマユシェ🎃(31のとくべちゅ衣装)",
-    "stock": 10,
+    "stock": 8,
     "limit": 20,
     "start": "2026-10-29 22:00",
     "creator_id": "2c_kuriharamay"
@@ -17202,7 +17202,7 @@
   "2c_kuriharamay_183182": {
     "name": "栗原舞優",
     "title": "【栗原舞優】10月の即納ボイスマユシェ🎤(歌ってみたも🙆‍♀️",
-    "stock": 20,
+    "stock": 10,
     "limit": 20,
     "start": "2026-10-29 22:30",
     "creator_id": "2c_kuriharamay"
