@@ -17206,5 +17206,61 @@
     "limit": 20,
     "start": "2026-10-29 22:30",
     "creator_id": "2c_kuriharamay"
+  },
+  "2c_ichimiyayui_183615": {
+    "name": "一宮ゆい",
+    "title": "【一宮ゆい】Happy Halloweenマルシェ🪽🎃",
+    "stock": 12,
+    "limit": 20,
+    "start": "2026-10-31 20:00",
+    "creator_id": "2c_ichimiyayui"
+  },
+  "2c_ichimiyayui_183617": {
+    "name": "一宮ゆい",
+    "title": "【一宮ゆい】夢見心地♡ランデヴーマルシェ",
+    "stock": 10,
+    "limit": 15,
+    "start": "2026-10-31 20:00",
+    "creator_id": "2c_ichimiyayui"
+  },
+  "2c_ichimiyayui_183623": {
+    "name": "一宮ゆい",
+    "title": "【一宮ゆい】ひさびさのボイスマルシェ❣️",
+    "stock": 4,
+    "limit": 20,
+    "start": "2026-10-31 20:00",
+    "creator_id": "2c_ichimiyayui"
+  },
+  "2c_ichimiyayui_183626": {
+    "name": "一宮ゆい",
+    "title": "【一宮ゆい】5枚限定！雑談マルシェ❤️‍🔥（恋・ホワイトアウト衣装）",
+    "stock": 0,
+    "limit": 5,
+    "start": "2026-10-31 20:00",
+    "creator_id": "2c_ichimiyayui"
+  },
+  "2c_itomai_183642": {
+    "name": "伊藤舞依",
+    "title": "【伊藤舞依】はっぴーはろうぃんマルシェ🎃♡",
+    "stock": 10,
+    "limit": 10,
+    "start": "2026-11-01 20:00",
+    "creator_id": "2c_itomai"
+  },
+  "2c_itomai_183643": {
+    "name": "伊藤舞依",
+    "title": "【伊藤舞依】なんでもまるしぇ♡",
+    "stock": 5,
+    "limit": 5,
+    "start": "2026-11-01 20:00",
+    "creator_id": "2c_itomai"
+  },
+  "2c_maejimaano_183641": {
+    "name": "前嶋杏乃",
+    "title": "【前嶋杏乃】信じるものは救われる♡大天使あのまるしぇ໒꒱· ﾟ",
+    "stock": 15,
+    "limit": 15,
+    "start": "2026-11-01 21:00",
+    "creator_id": "2c_maejimaano"
   }
 }
